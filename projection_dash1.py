@@ -27,6 +27,7 @@ custom_scale = ["#d7191c", "#fdae61", "#ffffbf", "#abdda4", "#2b83ba"]
 
 # Initialize the app
 app = Dash(__name__, external_stylesheets=[dbc.themes.CYBORG])
+server=app.server
 
 # App layout
 app.layout = dbc.Container([

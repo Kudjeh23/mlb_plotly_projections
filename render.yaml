@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: mh_plotly_mlb_projections
+    env: python
+    plan: free
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "gunicorn --chdir src projection_dash1:server"
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10.10

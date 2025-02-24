@@ -3,3 +3,4 @@ dash_ag_grid==31.3.0
 dash_bootstrap_components==1.7.1
 pandas==2.2.3
 plotly==6.0.0
+gunicorn==23.0.0
