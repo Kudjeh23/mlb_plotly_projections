@@ -4,10 +4,10 @@ import plotly.express as px
 from dash import dcc, html, callback, dash
 import dash_ag_grid as dag
 import dash_bootstrap_components as dbc
-from dash_bootstrap_components import Select
+# from dash_bootstrap_components import Select
 
 '''
-pip install dash pandas plotly
+pip install dash pandas plotly dash_ag_grid dash_bootstrap_components
 '''
 
 hitter_df = pd.read_csv('MLB 2025 Quick Projections - Hitters CSV.csv', sep=',')
